@@ -30,7 +30,7 @@ app.get('/failure' , (req,res)=>{
 })
 
 app.get('/success' , (req,res) => {
-    res.send("success")
+    res.send("success!!!!!")
 })
 app.listen( 5000 , ()=>{
     console.log("server is running on 5000 port");
